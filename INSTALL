@@ -1,0 +1,20 @@
+$ cd my_project_folder
+$ virtualenv venv
+
+virtualenv venv will create a folder in the current directory which will contain the Python executable files, and a copy of the pip library which you can use to install other packages. The name of the virtual environment (in this case, it was venv) can be anything
+
+
+
+To begin using the virtual environment, it needs to be activated:
+
+$ source venv/bin/activate
+
+
+Install packages as usual, for example:
+
+$ pip install requests
+
+# Version
+
+>>> import py2neo
+>>> py2neo.__version__
